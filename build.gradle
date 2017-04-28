@@ -124,7 +124,7 @@ dependencies {
 //
 
 // Setup group ID for this project
-group = "com.yarenty.ml"
+group = "com.yarenty.ai"
 
 //
 // Setup Scala plugin

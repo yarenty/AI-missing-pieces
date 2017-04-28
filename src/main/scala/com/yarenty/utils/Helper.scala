@@ -39,10 +39,12 @@ object Helper {
   def createOutputDirectory(fileName: String, force: Boolean = false): Boolean = {
     val dir = FilenameUtils.getFullPathNoEndSeparator(fileName)
     Log.debug(s"Create output directory: $dir")
+    println(s"Create output directory: $dir")
     val out = Directory(dir)
     out.createDirectory(force = force)
     if (force && !out.exists) {
       Log.err(s"Could not create output directory: $dir")
+      println(s"Could not create output directory: $dir")
       System.exit(-1)
     }
     out.exists
