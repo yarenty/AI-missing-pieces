@@ -15,3 +15,8 @@ project/plugins/project/
 # Scala-IDE specific
 .scala_dependencies
 .worksheet
+/.gradle/
+/.idea/
+/gradle/wrapper/gradle-wrapper.jar
+/gradlew
+/gradlew.bat
