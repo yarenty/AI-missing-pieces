@@ -198,7 +198,7 @@ apply plugin: 'com.github.johnrengelman.shadow'
 shadowJar {
     // Configure name of output jar as sparkling-water-droplet-app.jar
     appendix = 'app'
-    archiveName = "hypersearch.${extension}"
+    archiveName = "ai.${extension}"
     //  archiveName = "${baseName}-${appendix}.${extension}"
 
     // Dependencies included in resulting jar file
